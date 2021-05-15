@@ -1,9 +1,11 @@
-## Using Dash in Flask
+# Dash-in-Flask Workshop
 
 ### Purpose
 [Dash](https://dash.plotly.com/) is an open-source framework for building analytical applications, with no Javascript required, and it is tightly integrated with the [Plotly](https://plotly.com/python/) graphing library ([example](https://dash-gallery.plotly.host/dash-oil-and-gas/ )). We can use Dash to create detailed data-visualizations to generate insight into large datasets in Python and display it in an existing [Flask](https://flask.palletsprojects.com/en/1.1.x/) application which may server other purposes in a website. 
 
 Flask is a very popular backend framework for web applications. We will use Flask to handle all the incoming requests from our clients and serve them the necessary HTML content, including the Dash dashboard that you create. This will allow you to create multiple custom dashboards and/or visualizations in your web server.
+
+This workshop was inspired and adapted by concepts and methods introduced in other public tutorials [[1](https://hackersandslackers.com/plotly-dash-with-flask/), [2](https://medium.com/@olegkomarov_77860/how-to-embed-a-dash-app-into-an-existing-flask-app-ea05d7a2210b)].
 
 ### Setup
 Follow the steps to get your environments set up for this workshop:
